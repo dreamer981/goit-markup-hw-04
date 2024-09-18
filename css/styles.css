@@ -342,6 +342,7 @@ img {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+
 }
 .page-footer a {
   display: inline-block;
@@ -367,12 +368,24 @@ img {
   align-items: center;
   display: flex;
 }
+
 .social-media {
   color: #ffffff;
-  width: 208px;
-  height: 80px;
-  margin-left: 70px;
-  padding-top: 65px;
-  padding-bottom: 150px;
-  gap: 16px;
+  max-width: 208px;
+  margin-left: 120px;
+}
+
+.socialmedia {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 1.5;
+text-align: left;
+}
+
+.foot-social {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  margin-top: 16px;
 }
