@@ -177,11 +177,11 @@ img {
   display: block;
   margin: auto;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover {
   background-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Second section */
