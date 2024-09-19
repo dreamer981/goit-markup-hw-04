@@ -139,6 +139,9 @@ img {
 
 .first-section {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   max-width: 1440px;
   height: 600px;
   padding: 188px 0;
@@ -178,6 +181,7 @@ img {
 
 .order-button:hover {
   background-color: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Second section */
