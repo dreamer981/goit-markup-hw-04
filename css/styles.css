@@ -32,6 +32,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container-header {
@@ -115,7 +117,11 @@ img {
 /*First section */
 
 .first-section {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office\ 1.jpg);
   max-width: 1440px;
   height: 600px;
   padding: 188px 0;
@@ -158,6 +164,8 @@ img {
 }
 
 /*Second section */
+
+
 
 .second-section {
   padding: 120px 0;
@@ -334,7 +342,6 @@ img {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-
 }
 .page-footer a {
   display: inline-block;
@@ -368,11 +375,11 @@ img {
 }
 
 .socialmedia {
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 1.5;
-text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.5;
+  text-align: left;
 }
 
 .foot-social {
