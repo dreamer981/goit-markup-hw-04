@@ -70,6 +70,10 @@ img {
   flex-direction: row;
 }
 
+.my-page-menu::after {
+
+}
+
 .page-logo-title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -304,7 +308,7 @@ img {
 }
 
 .social-icons {
-  margin-top: 16px;
+  margin-top: 8px;
   column-gap: 16px;
   display: flex;
   align-items: center;
