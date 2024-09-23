@@ -70,8 +70,7 @@ img {
   flex-direction: row;
 }
 
-.my-page-menu::after {
-}
+
 
 .page-logo-title {
   font-family: "Raleway", sans-serif;
@@ -111,8 +110,12 @@ img {
   color: #404bbf;
 }
 
-.page-menu-list a:active {
-  text-decoration: underline;
+.page-menu-list a:active::after {
+  content: "";
+  background-color: #404bbf;
+  width: 100%;
+  height: 2px;
+  position: absolute;
 }
 
 .page-adress-list {
