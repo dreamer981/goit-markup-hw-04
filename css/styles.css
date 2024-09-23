@@ -110,12 +110,13 @@ img {
   color: #404bbf;
 }
 
-.page-menu-list a:active::after {
+.menu-nav:active::after {
   content: "";
   background-color: #404bbf;
   width: 100%;
   height: 2px;
   position: absolute;
+  left: 0;
 }
 
 .page-adress-list {
