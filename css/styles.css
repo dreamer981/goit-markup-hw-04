@@ -58,8 +58,6 @@ img {
   flex-direction: row;
 }
 
-
-
 .page-logo-title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -384,7 +382,6 @@ img {
   letter-spacing: 2%;
 }
 
-
 .hidden-back {
   position: absolute;
   top: 0;
@@ -400,7 +397,6 @@ img {
 .hidden-back:hover {
   opacity: 1;
 }
-
 
 .portfolio-card {
   width: calc((100% - 72px) / 4);
@@ -502,4 +498,105 @@ img {
 
 .icon2:hover {
   background-color: #31d0aa;
+}
+
+.form-data {
+  height: 676px;
+  background: transparent(40%) #2e2f4266;
+}
+
+.form-css {
+  background-color: #fcfcfc;
+  width: 408px;
+  height: 584px;
+  top: 80px;
+  left: 516px;
+  border-radius: 4px;
+  position: absolute;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+  box-shadow: 0px 2px 1px 0px #00000033;
+}
+
+.inputs-css {
+  width: 360px;
+  height: 336px;
+  
+  margin: auto;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #8e8f99;
+}
+
+.form-head {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 16px;
+}
+
+
+#name, #phone, #email {
+  width: 360px;
+  height: 40px;
+  display: block;
+  border: 1px solid #2e2f4266;
+}
+
+#comment {
+  width: 360px;
+  height: 120px;
+  display: block;
+  border: 1px solid #2e2f4266;
+}
+
+.checkbox-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.04em; 
+  color: #8e8f99;
+}
+
+.privacy {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.04em; 
+  color: #4D5AE5;
+
+}
+
+.checkbox-css {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.send-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -4%;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-button:hover {
+  background-color: #404bbf;
 }
